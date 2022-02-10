@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(Paper.jpg);
+}
+h1 {
+color:orange;
+font-weight: normal;
+font-style: italic;
+}
+
+h2 {
+  color: #ff00ff
+  }
+  #specialid {
+    background-color:lightblue;
+}
+  .Para {
+    color: #dd8dfc
+  }
+  .BGPara {
+    background-color: #ffea9e
+  }
+a {
+  color:red
+}
+a:visited {
+  color:green
+}
+a:hover {
+  color:yellow
+}
+
+.Center {
+  text-align: center;
+}
+
+.Justice {
+  text-align: justify;
+}
+.frame {
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  border: 20px solid black
+}
