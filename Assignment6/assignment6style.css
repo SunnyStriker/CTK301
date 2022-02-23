@@ -1,0 +1,110 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid black;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+body {
+  background-color: #999999;
+}
+
+aside {
+  font-family: helvetica;
+}
+
+#image {
+  background-image: url(a62.png);
+}
+
+#brick {
+  margin: 20px;
+  float: left;
+  border: 5px solid black;
+  padding: 5px;
+  grid-column: 2;
+}
+
+.border {
+padding: 20px
+border: 10px
+border: black
+}
+
+header {
+  grid-column:span 4;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+h2 {
+  font-family: helvetica;
+  grid-column:span 3;
+  border-bottom: 5px solid black;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+  grid-column: span 1;
+  margin: 10px;
+  width: 158px;
+  display: inline-block;
+  margin-left
+  display: block;
+  padding: 10px;
+  color: White;
+  text-decoration: none;
+  background: red;
+}
+
+ul li a:hover {
+  background-color: darkred;
+}
+
+main {
+  grid-column: span 3;
+  padding-right: 10px;
+}
+
+main p {
+  font-family: georgia;
+  text-align:justify
+}
+#bold {
+  font-weight: bold;
+}
+
+.link {
+text-decoration: none;
+font-weight: bold;
+  color:red;
+}
+
+.link:hover {
+  color:blue;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+  background-color: red;
+  grid-column: span 4;
+  color: white;
+}
