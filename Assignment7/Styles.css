@@ -1,0 +1,165 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid blue;
+  background-color: #787878;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.helvetica {
+  font-family: helvetica;
+}
+
+.georgia {
+  font-family: georgia;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+a {
+  color:red;
+  text-decoration: none;
+}
+
+a:hover {
+  color:green;
+}
+
+h1 a {
+padding-left: 10px;
+color:white;
+}
+
+h1 a:hover {
+  color:white;
+}
+
+h2 {
+  color:blue;
+  border-bottom: 3px solid blue;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  grid-column:span 4;
+  background: rgb(5,156,242);
+background: linear-gradient(180deg, rgba(5,156,242,1) 0%, rgba(16,80,236,1) 100%);
+  color: white;
+}
+
+nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-column: span 4;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-column: span 4;
+    background: rgb(5,156,242);
+    background: rgb(16,80,236);
+background: linear-gradient(180deg, rgba(16,80,236,1) 0%, rgba(24,41,141,1) 100%);
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  width: 199px;
+  background: rgb(16,80,236);
+  background: linear-gradient(180deg, rgba(16,80,236,1) 0%, rgba(24,41,141,1) 100%);
+}
+
+nav ul li a {
+  width: 199px;
+  display: block;
+  margin: 0;
+  padding: 12px;
+  color: White;
+  text-decoration: none;
+  background: rgb(16,80,236);
+background: linear-gradient(180deg, rgba(16,80,236,1) 0%, rgba(24,41,141,1) 100%);
+}
+
+ul li a:hover {
+  color:white;
+  background: rgb(5,156,242);
+background: linear-gradient(0deg, rgba(5,156,242,1) 0%, rgba(16,80,236,1) 100%);
+}
+
+#img {
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 0px;
+  float: left;
+  border: 5px solid blue;
+}
+
+#rightimg {
+  margin: 20px;
+  margin-right: 0px;
+  margin-top: 0px;
+  float: right;
+  border: 5px solid blue;
+}
+
+#centerimg {
+  margin: 20px;
+  margin-top: 0px;
+  float: inherit;
+  border: 5px solid blue;
+}
+
+#imgG {
+  margin: 10px;
+  margin-top: 0px;
+  float: left;
+  border: 5px solid blue;
+}
+
+#rightimgG {
+  margin: 10px;
+  margin-top: 0px;
+  float: right;
+  border: 5px solid blue;
+}
+
+#centerimgG {
+  margin: 10px;
+  margin-top: 0px;
+  float: inherit;
+  border: 5px solid blue;
+}
+
+li {
+  margin: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+main {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: span 4;
+  padding: 30px;
+  background: white;
+}
+
+footer{
+  padding: 15px;
+  background-color: red;
+  grid-column: span 4;
+  color: white;
+  border-top: 5px solid blue;
+}
+
+#footerspace {
+  margin-left: 15px;
+}
