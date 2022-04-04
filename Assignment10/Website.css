@@ -1,0 +1,108 @@
+body {
+margin: 0;
+}
+
+#wrapper {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+main p {
+  font-family: helvetica;
+  color: black;
+  font-weight: bold;
+}
+
+aside p {
+  text-align: center;
+  font-size: 18pt;
+  border-bottom: 3px solid #DE4646;
+  color: #DE4646;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+aside {
+  margin: 20px;
+  border-right: 3px solid #DE4646;
+  font-family: helvetica;
+  color: black;
+  font-weight: bold;
+}
+
+#image {
+  background-image: url(a62.png);
+}
+
+#homeimg {
+  margin-top: 20px;
+  Margin-bottom: 20px;
+}
+
+.border {
+padding: 20px;
+border: 10px;
+border: black;
+}
+
+header {
+  grid-column:span 12;
+  background-color: #DE4646;
+  color: white;
+  padding: 35px;
+  margin: 0px;
+}
+
+h2 {
+  font-family: helvetica;
+  grid-column:span 11;
+  border-bottom: 5px solid black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+  text-align: center;
+  grid-column: span 3;
+  margin: 5px;
+  width: 158px;
+  display: inline-block;
+  margin-left
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background: none;
+  color: black;
+}
+
+ul li a:hover {
+  Color: #DE4646;
+}
+
+main {
+  grid-column: span 11;
+  padding-right: 20px;
+}
+
+.link {
+text-decoration: none;
+font-weight: bold;
+color:red;
+}
+
+.link:hover {
+  color:blue;
+  text-decoration: underline;
+}
